@@ -7,6 +7,31 @@ public class NQueens {
         System.out.println( queens(board, 0));
     }
 
+    static int queenDiff(boolean[][] board, int row, int col, int queen) {
+        if (queen == 0) {
+            display(board);
+            System.out.println();
+            return 1;
+        }
+
+        if (row == board.length) {
+            return 0;
+        }
+        int count = 0;
+        if (col == board.length) {
+            return queenDiff(board, row + 1, 0, queen);
+        }
+
+        if (isSafe(board, row, col)) {
+            board[row][col] = true;
+            count += queenDiff(board, row + 1, 0, queen - 1);
+            board[row][col] = false;
+        }
+
+        count += queenDiff(board, row, col + 1, queen);
+        return count;
+    }
+    
     static int queens(boolean[][] board, int row){
         if (row == board.length){
             diplay(board);
