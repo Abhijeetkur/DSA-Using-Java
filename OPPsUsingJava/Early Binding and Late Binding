@@ -1,0 +1,16 @@
+            Early Binding	                                                              Late Binding
+1.It is a compile-time process	                                                1.It is a run-time process
+2.The method definition and method call are linked during the compile time.     2.The method definition and method call are linked during
+                                                                                  the run time.
+3.Actual object is not used for binding.	                                    3.Actual object is used for binding.
+4.For example: Method overloading	                                            4.For example: Method overriding
+5.Program execution is faster	                                                 5.Program execution is slower
+
+
+
+
+Early Binding: The binding which can be resolved at compile time by the compiler is known as static or early binding.
+               Binding of all the static, private and final methods is done at compile-time
+
+Late binding: In the late binding or dynamic binding, the compiler doesn’t decide the method to be called.
+              Overriding is a perfect example of dynamic binding. In overriding both parent and child classes have the same method.

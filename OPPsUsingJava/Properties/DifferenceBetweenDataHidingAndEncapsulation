@@ -1,0 +1,7 @@
+
+	Data Hiding	                                                          Encapsulation
+It is associated with data security.	                        It can be defined as the wrapping up of data into a single module.
+It also helps conceal the complexities of the application.	This will hide the complicated and confidential information about the 									application.
+It focuses on hiding/restricting the data usage.	        It focuses on hiding the complexity of the system.
+It is considered as a process and a technique.			It is considered as a sub−process in the bigger process of data hiding.
+The data is always private and inaccessible.			The encapsulated data can be private or public, depending on the requirement.
