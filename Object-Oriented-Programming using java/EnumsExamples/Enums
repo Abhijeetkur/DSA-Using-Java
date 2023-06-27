@@ -1,3 +1,0 @@
-1. All the enums explicitly extends java.lang.Enum class.
-2. Enum can implements as many interface as you want but it can't extend class.
-3. Abstract method is not allowed in Enum because a method body is required.

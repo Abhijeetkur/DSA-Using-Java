@@ -1,5 +1,0 @@
-package abhi.generics;
-
-public interface GenericInterface <T> {
-    void display(T value);
-}
